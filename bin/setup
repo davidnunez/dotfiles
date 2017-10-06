@@ -420,12 +420,12 @@ step_osx() {
     show "Disable auto-correct"
     run "defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false"
 
-    if [[ -e "$HOME/env/Rio.jpg" ]]; then
-        show "Set wallpaper to $HOME/env/Rio.jpg"
-        run "rm -rf '$HOME/Library/Application' Support/Dock/desktoppicture.db"
-        run "sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg"
-        run "sudo ln -s '$HOME/env/Rio.jpg' /System/Library/CoreServices/DefaultDesktop.jpg"
-    fi
+    # if [[ -e "$HOME/env/Rio.jpg" ]]; then
+    #     show "Set wallpaper to $HOME/env/Rio.jpg"
+    #     run "rm -rf '$HOME/Library/Application' Support/Dock/desktoppicture.db"
+    #     run "sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg"
+    #     run "sudo ln -s '$HOME/env/Rio.jpg' /System/Library/CoreServices/DefaultDesktop.jpg"
+    # fi
 
     ########################################
     # SSD-specific tweaks
