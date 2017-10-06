@@ -1727,7 +1727,6 @@ fi
 
 # key;  question
 steps=(
-    "osx;           Override OS X defaults settings and configuration"
     "brewonly;      Ensure Homebrew is installed"
     "xcode;         Ensure that Xcode Command Line Tools are installed"
     "java;          Ensure that Apple's java for OS X is installed"
@@ -1742,6 +1741,7 @@ steps=(
     "go;            Ensure Go packages are installed"
     "cargo;         Ensure Rust packages are installed via cargo"
     "env;           Update to latest all submodules in your dotfiles"
+    "osx;           Override OS X defaults settings and configuration"
 )
 
 LISTING_OUTPUT=""
