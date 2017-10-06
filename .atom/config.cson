@@ -46,10 +46,6 @@
     ]
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
-    themes: [
-      "native-ui"
-      "solarized-light-syntax"
-    ]
     titleBar: "custom"
   "cursor-indicator":
     displayPrefix: "|"
