@@ -3,7 +3,7 @@
     general:
       analytics: false
   "atom-notes":
-    directory: "~/Dropbox/nv"
+    directory: "~/Dropbox/Notes"
   "atom-pair": null
   "autocomplete-plus":
     confirmCompletion: "tab and enter"
