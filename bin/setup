@@ -1171,6 +1171,24 @@ install_brew_formula() {
     # run "brew unlink $1 && brew link --force --overwrite $1"
 }
 
+step_brewonly() {
+    ensure_no_anaconda
+
+    if [[ -z "$(which brew)" ]]; then
+        show "installing homebrew..."
+        run "ruby -e \"\$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
+        export PATH="$PATH:/usr/local/bin" # make sure brew is in your PATH before continuing
+    else
+        show "Homebrew already installed"
+    fi
+
+    if [[ -z "$(which brew)" ]]; then
+        abort "failed to install Homebrew"
+    fi
+
+}
+
+
 step_brew() {
     ensure_no_anaconda
 
@@ -1710,6 +1728,7 @@ fi
 # key;  question
 steps=(
     "osx;           Override OS X defaults settings and configuration"
+    "brewonly;      Ensure Homebrew is installed"
     "xcode;         Ensure that Xcode Command Line Tools are installed"
     "java;          Ensure that Apple's java for OS X is installed"
     "brew;          Ensure Homebrew installed and formulas upgraded"
