@@ -538,8 +538,8 @@ step_osx() {
     run "defaults write com.apple.finder ShowMountedServersOnDesktop -bool true"
     run "defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true"
 
-    # show "Finder: show hidden files by default"
-    # run "defaults write com.apple.finder AppleShowAllFiles -bool true"
+    show "Finder: show hidden files by default"
+    run "defaults write com.apple.finder AppleShowAllFiles -bool true"
 
     show "Finder: show all filename extensions"
     run "defaults write NSGlobalDomain AppleShowAllExtensions -bool true"
