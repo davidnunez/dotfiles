@@ -8,4 +8,4 @@
 
 "atom-text-editor":
   # Replaces `editor:select-line` with `atom-notes:toggle`
-  "cmd-l": "atom-notes:toggle"
+  "ctrl-cmd-alt-n": "atom-notes:toggle"
