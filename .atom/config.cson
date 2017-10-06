@@ -38,6 +38,7 @@
       "linter-clang"
       "nvatom"
       "pigments"
+      "event-watch"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
