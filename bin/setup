@@ -473,6 +473,8 @@ step_osx() {
     show "Disable press-and-hold for keys in favor of key repeat"
     run "defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false"
 
+    # defaults for a freshly installed macOS Sierra 10.12.5 (16F73) are:
+    # InitialKeyRepeat = 25 and KeyRepeat = 6
     show "Set a blazingly fast keyboard repeat rate"
     run "defaults write NSGlobalDomain KeyRepeat -int 1"
     run "defaults write NSGlobalDomain InitialKeyRepeat -int 10"
