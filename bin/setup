@@ -16,15 +16,15 @@ HOMEBREW_FORMULAS="                                                            \
     jez/formulae/pandoc-sidenote jhead jo jpeg jq kafkacat lame libassuan      \
     libevent libffi libgcrypt libgpg-error libgphoto2 libicns libksba libmpc   \
     libpng librdkafka libssh2 libtasn1 libtiff libtool libunistring libusb     \
-    libusb-compat libvo-aacenc libyaml little-cms2 lz4 lzlib makedepend maven  \
-    md5sha1sum memcached mongodb mpfr mysql ncftp net-snmp nettle nginx        \
-    no-more-secrets node npth onepass oniguruma openssl ossp-uuid p11-kit      \
+    libusb-compat libvo-aacenc libyaml little-cms2 lz4 lzlib makedepend mackup \
+    mas maven md5sha1sum memcached mongodb mpfr mysql ncftp net-snmp nettle    \
+    nginx no-more-secrets node npth onepass oniguruma openssl ossp-uuid p11-kit\
     pandoc pcre percona-toolkit pidof pinentry pkg-config plotutils pngquant   \
     postgresql protobuf pyenv pyenv-virtualenv pyenv-virtualenvwrapper         \
     rabbitmq readline redis ripgrep rust s3cmd sane-backends sbt scala scons   \
     sdl2 sdl2_image shellcheck sloccount spark sqlite sqliteodbc storm swig    \
-    tree unixodbc unrar v8 vegeta vramsteg watch wdiff webp wget wxmac x264    \
-    xvid xz yajl yaml-cpp youtube-dl zeromq zookeeper zsh"
+    tmux tree unixodbc unrar v8 vegeta vramsteg watch wdiff webp wget wxmac    \
+    x264 xvid xz yajl yaml-cpp youtube-dl zeromq zookeeper zsh"
 
 HOMEBREW_CASKS="                                                               \
     1password adium amazon-music atom audacity balsamiq-mockups battle-net     \
@@ -33,7 +33,8 @@ HOMEBREW_CASKS="                                                               \
     istumbler iterm2 java kaleidoscope lingon-x lisanet-gimp mactex            \
     mysqlworkbench oclint robomongo silverlight skype slack snes9x soundflower \
     sourcetree spectacle spotify steam sublime-text texstudio transmission     \
-    vagrant virtualbox visual-studio-code vlc whatsapp xquartz"
+    vagrant virtualbox visual-studio-code vlc whatsapp xquartz mailmate        \
+    cleanmymac"
 
 ATOM_PACKAGES="                                                                \
     MagicPython activate-power-mode aesthetic-ui atom-beautify atom-isort      \
@@ -51,7 +52,9 @@ ATOM_PACKAGES="                                                                \
     minimap-highlight-selected minimap-selection multi-wrap-guide native-ui    \
     no-title-bar pretty-json python-yapf red-wavy-underline ruby-block         \
     set-syntax soft-wrap-indicator sort-lines standard-formatter tab-control   \
-    tabs-to-spaces toggle-quotes trailing-spaces unity-ui"
+    tabs-to-spaces toggle-quotes trailing-spaces unity-ui                      \
+    Sublime-Style-Column-Selection advanced-open-file atom-clock dayone        \
+    hey-pane marked tasks"
 
 CODE_PACKAGES="                                                                \
     DavidAnson.vscode-markdownlint HookyQR.beautify dbaeumer.vscode-eslint     \
