@@ -487,8 +487,8 @@ step_osx() {
     run "sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true"
 
     # See `sudo systemsetup -listtimezones` for other values
-    show "Set the timezone to America/Chicago"
-    run "sudo systemsetup -settimezone 'America/Chicago' >/dev/null"
+    show "Set the timezone to America/New_York"
+    run "sudo systemsetup -settimezone 'America/New_York' >/dev/null"
 
     show "Stop iTunes from responding to the keyboard media keys"
     run "launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2>/dev/null"
