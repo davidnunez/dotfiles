@@ -41,6 +41,7 @@
 /.bokeh
 /.bundle/cache
 /.cache/bower
+/.cache/fontconfig
 /.cargo
 /.ccache
 /.coffee_history
@@ -104,3 +105,4 @@
 /Dropbox*
 /IdeaProjects
 /VirtualBox*
+.Xauthority
