@@ -1,3 +1,21 @@
+# Next
+- evaulate cask installed files
+    - already installed
+        - Chrome
+    - cask issues
+        - audacity
+        - robomongo
+    - other
+        - devonthink
+        - docker for mac
+
+# Additional steps
+- authorize iTunes
+
+# Later
+- setup osx: enable fileencrypt
+- make setup brewjava after brewonly
+    "brewjava;      Install Java from brew"
 - fix setup python issues
 
     ! asn1crypto installed but not managed by setup via pip or anaconda
