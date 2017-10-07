@@ -16,45 +16,46 @@ HOMEBREW_FORMULAS="                                                            \
     jez/formulae/pandoc-sidenote jhead jo jpeg jq kafkacat lame libassuan      \
     libevent libffi libgcrypt libgpg-error libgphoto2 libicns libksba libmpc   \
     libpng librdkafka libssh2 libtasn1 libtiff libtool libunistring libusb     \
-    libusb-compat libvo-aacenc libyaml little-cms2 lz4 lzlib makedepend mackup \
+    libusb-compat libvo-aacenc libyaml little-cms2 lz4 lzlib mackup makedepend \
     mas maven md5sha1sum memcached mongodb mpfr mysql ncftp net-snmp nettle    \
-    nginx no-more-secrets node npth onepass oniguruma openssl ossp-uuid p11-kit\
-    pandoc pcre percona-toolkit pidof pinentry pkg-config plotutils pngquant   \
-    postgresql protobuf pyenv pyenv-virtualenv pyenv-virtualenvwrapper         \
-    rabbitmq readline redis ripgrep rust s3cmd sane-backends sbt scala scons   \
-    sdl2 sdl2_image shellcheck sloccount spark sqlite sqliteodbc storm swig    \
-    tmux tree unixodbc unrar v8 vegeta vramsteg watch wdiff webp wget wxmac    \
-    x264 xvid xz yajl yaml-cpp youtube-dl zeromq zookeeper zsh"
+    nginx no-more-secrets node npth onepass oniguruma openssl ossp-uuid        \
+    p11-kit pandoc pcre percona-toolkit pidof pinentry pkg-config plotutils    \
+    pngquant postgresql protobuf pyenv pyenv-virtualenv                        \
+    pyenv-virtualenvwrapper rabbitmq readline redis ripgrep rust s3cmd         \
+    sane-backends sbt scala scons sdl2 sdl2_image shellcheck sloccount spark   \
+    sqlite sqliteodbc storm swig tmux tree unixodbc unrar v8 vegeta vramsteg   \
+    watch wdiff webp wget wxmac x264 xvid xz yajl yaml-cpp youtube-dl zeromq   \
+    zookeeper zsh"
 
 HOMEBREW_CASKS="                                                               \
-    1password adium amazon-music atom audacity balsamiq-mockups                \
-    caffeine clamxav cyberduck dbvisualizer disk-inventory-x dropbox evernote  \
-    fantastical firefox flux google-chrome google-hangouts hipchat iexplorer   \
-    istumbler iterm2 java kaleidoscope lingon-x lisanet-gimp mactex            \
-    mysqlworkbench oclint robomongo silverlight skype slack snes9x soundflower \
-    sourcetree spectacle spotify steam sublime-text texstudio transmission     \
-    vagrant virtualbox visual-studio-code vlc whatsapp xquartz mailmate        \
-    cleanmymac alfred"
+    1password adium alfred amazon-music atom audacity balsamiq-mockups         \
+    caffeine clamxav cleanmymac cyberduck dbvisualizer disk-inventory-x        \
+    dropbox evernote fantastical firefox flux google-chrome google-hangouts    \
+    hipchat iexplorer istumbler iterm2 java kaleidoscope lingon-x lisanet-gimp \
+    mactex mailmate mysqlworkbench oclint robomongo silverlight skype slack    \
+    snes9x soundflower sourcetree spectacle spotify steam sublime-text         \
+    texstudio transmission vagrant virtualbox visual-studio-code vlc whatsapp  \
+    xquartz"
 
 ATOM_PACKAGES="                                                                \
-    MagicPython activate-power-mode aesthetic-ui atom-beautify atom-isort      \
+    MagicPython Sublime-Style-Column-Selection activate-power-mode             \
+    advanced-open-file aesthetic-ui atom-beautify atom-clock atom-isort        \
     atom-language-avro atom-notes auto-update-packages autocomplete-python     \
-    base16-syntax busy-signal column-select cursor-indicator event-watch       \
-    file-icons flatwhite-syntax force-tab format-shell git-blame               \
-    highlight-selected indent-guide-improved intentions isotope-light-ui       \
-    language-applescript language-atom-notes language-babel language-cmake     \
-    language-diff language-docker language-groovy language-latex               \
-    language-protobuf language-restructuredtext language-rust language-scala   \
-    line-length-break linter linter-clang linter-coffeelint linter-csslint     \
-    linter-docker linter-erb linter-eslint linter-flake8 linter-jsonlint       \
-    linter-rubocop linter-shellcheck linter-tidy linter-ui-default             \
-    linter-write-good minimap minimap-find-and-replace minimap-git-diff        \
-    minimap-highlight-selected minimap-selection multi-wrap-guide native-ui    \
-    no-title-bar pretty-json python-yapf red-wavy-underline ruby-block         \
-    set-syntax soft-wrap-indicator sort-lines standard-formatter tab-control   \
-    tabs-to-spaces toggle-quotes trailing-spaces unity-ui                      \
-    Sublime-Style-Column-Selection advanced-open-file atom-clock dayone        \
-    hey-pane marked tasks"
+    base16-syntax busy-signal column-select cursor-indicator dayone            \
+    event-watch file-icons flatwhite-syntax force-tab format-shell git-blame   \
+    hey-pane highlight-selected indent-guide-improved intentions               \
+    isotope-light-ui language-applescript language-atom-notes language-babel   \
+    language-cmake language-diff language-docker language-groovy               \
+    language-latex language-protobuf language-restructuredtext language-rust   \
+    language-scala line-length-break linter linter-clang linter-coffeelint     \
+    linter-csslint linter-docker linter-erb linter-eslint linter-flake8        \
+    linter-jsonlint linter-rubocop linter-shellcheck linter-tidy               \
+    linter-ui-default linter-write-good marked minimap                         \
+    minimap-find-and-replace minimap-git-diff minimap-highlight-selected       \
+    minimap-selection multi-wrap-guide native-ui no-title-bar pretty-json      \
+    python-yapf red-wavy-underline ruby-block set-syntax soft-wrap-indicator   \
+    sort-lines standard-formatter tab-control tabs-to-spaces tasks             \
+    toggle-quotes trailing-spaces unity-ui"
 
 CODE_PACKAGES="                                                                \
     DavidAnson.vscode-markdownlint HookyQR.beautify dbaeumer.vscode-eslint     \
