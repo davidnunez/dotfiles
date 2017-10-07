@@ -492,8 +492,8 @@ step_osx() {
     show "Set the timezone to America/New_York"
     run "sudo systemsetup -settimezone 'America/New_York' >/dev/null"
 
-    show "Stop iTunes from responding to the keyboard media keys"
-    run "launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2>/dev/null"
+    # show "Stop iTunes from responding to the keyboard media keys"
+    # run "launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2>/dev/null"
 
     ########################################
     # Screen
