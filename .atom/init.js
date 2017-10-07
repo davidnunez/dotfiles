@@ -9,10 +9,10 @@ atom.workspace.observeTextEditors((editor) => {
 })
 
 // Hide tree view by default on editor startup.
-const workspaceView = atom.views.getView(atom.workspace)
-workspaceView.classList.add('loading')
-atom.packages.onDidActivateInitialPackages(() => {
-  const workspaceView = atom.views.getView(atom.workspace)
-  atom.commands.dispatch(workspaceView, 'tree-view:toggle')
-  workspaceView.classList.remove('loading')
-})
+// const workspaceView = atom.views.getView(atom.workspace)
+// workspaceView.classList.add('loading')
+// atom.packages.onDidActivateInitialPackages(() => {
+//   const workspaceView = atom.views.getView(atom.workspace)
+//   atom.commands.dispatch(workspaceView, 'tree-view:toggle')
+//   workspaceView.classList.remove('loading')
+// })
