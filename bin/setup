@@ -34,7 +34,7 @@ HOMEBREW_CASKS="                                                               \
     mysqlworkbench oclint robomongo silverlight skype slack snes9x soundflower \
     sourcetree spectacle spotify steam sublime-text texstudio transmission     \
     vagrant virtualbox visual-studio-code vlc whatsapp xquartz mailmate        \
-    cleanmymac"
+    cleanmymac alfred"
 
 ATOM_PACKAGES="                                                                \
     MagicPython activate-power-mode aesthetic-ui atom-beautify atom-isort      \

@@ -148,7 +148,7 @@ google-hangouts, hipchat, iexplorer, istumbler, iterm2, java, kaleidoscope,
 lingon-x, lisanet-gimp, mactex, mysqlworkbench, oclint, robomongo, silverlight,
 skype, slack, snes9x, soundflower, sourcetree, spectacle, spotify, steam,
 sublime-text, texstudio, transmission, vagrant, virtualbox, visual-studio-code,
-vlc, whatsapp, xquartz, mailmate, cleanmymac
+vlc, whatsapp, xquartz, mailmate, cleanmymac, alfred
 
 Atom Packages: MagicPython, activate-power-mode, aesthetic-ui, atom-beautify,
 atom-isort, atom-language-avro, atom-notes, auto-update-packages,
