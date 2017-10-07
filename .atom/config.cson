@@ -39,6 +39,7 @@
       "nvatom"
       "pigments"
       "event-watch"
+      "no-title-bar"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
