@@ -28,14 +28,13 @@ HOMEBREW_FORMULAS="                                                            \
     zookeeper zsh"
 
 HOMEBREW_CASKS="                                                               \
-    1password adium alfred amazon-music atom audacity balsamiq-mockups         \
-    caffeine clamxav cleanmymac cyberduck dbvisualizer disk-inventory-x        \
-    dropbox evernote fantastical firefox flux google-chrome google-hangouts    \
-    hipchat iexplorer istumbler iterm2 java kaleidoscope lingon-x lisanet-gimp \
-    mactex mailmate mysqlworkbench oclint robomongo silverlight skype slack    \
-    snes9x soundflower sourcetree spectacle spotify steam sublime-text         \
-    texstudio transmission vagrant virtualbox visual-studio-code vlc whatsapp  \
-    xquartz"
+    1password adium alfred atom audacity balsamiq-mockups caffeine clamxav     \
+    cleanmymac cyberduck dbvisualizer disk-inventory-x dropbox evernote        \
+    fantastical firefox flux google-chrome google-hangouts hipchat iexplorer   \
+    istumbler iterm2 java kaleidoscope lingon-x lisanet-gimp mactex mailmate   \
+    mysqlworkbench oclint robomongo silverlight skype slack snes9x soundflower \
+    sourcetree spectacle spotify steam sublime-text texstudio transmission     \
+    vagrant virtualbox visual-studio-code vlc whatsapp xquartz"
 
 ATOM_PACKAGES="                                                                \
     MagicPython Sublime-Style-Column-Selection activate-power-mode             \
