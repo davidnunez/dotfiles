@@ -454,8 +454,8 @@ step_osx() {
     # run "defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1"
     # run "defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true"
 
-    show 'Disable “natural” (Lion-style) scrolling'
-    run "defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false"
+    # show 'Disable “natural” (Lion-style) scrolling'
+    # run "defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false"
 
     show "Increase sound quality for Bluetooth headphones/headsets"
     run "defaults write com.apple.BluetoothAudioAgent 'Apple Bitpool Min (editable)' -int 40"
@@ -477,7 +477,7 @@ step_osx() {
     # InitialKeyRepeat = 25 and KeyRepeat = 6
     show "Set a blazingly fast keyboard repeat rate"
     run "defaults write NSGlobalDomain KeyRepeat -int 1"
-    run "defaults write NSGlobalDomain InitialKeyRepeat -int 10"
+    run "defaults write NSGlobalDomain InitialKeyRepeat -int 20"
 
     show "Set language and text formats"
     run "defaults write NSGlobalDomain AppleLanguages -array 'en' 'nl'"
