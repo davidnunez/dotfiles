@@ -1079,6 +1079,13 @@ EOF
     run "defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true"
 
     ########################################
+    # Devonthink
+    ########################################
+
+    show "Devonthink: Show markdown files as plaintext by default"
+    run "defaults write com.devon-technologies.thinkpro2 RenderMarkdown -bool FALSE"
+
+    ########################################
     # Kill affected applications
     ########################################
     for app in "Activity Monitor" \
